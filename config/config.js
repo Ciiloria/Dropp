@@ -15,7 +15,7 @@ exports.proxyip = ['127.0.0.0/8'];
 //   in every Random Battle team.
 exports.potd = '';
 exports.superAdmins = {
-	"thewledey": 1
+	"Phixalate": 1
 };
 
 // crash guard - write errors to log file instead of crashing
@@ -230,14 +230,14 @@ exports.grouplist = [
 	{
 		symbol: '~',
 		id: "admin",
-		name: "Administrador",
+		name: "Administrator",
 		root: true,
 		globalonly: true
 	},
 	{
 		symbol: '&',
 		id: "leader",
-		name: "Líder",
+		name: "Leader",
 		inherit: '@',
 		clans:true,
 		jurisdiction: '@u',
@@ -255,7 +255,7 @@ exports.grouplist = [
 	{
 		symbol: '#',
 		id: "owner",
-		name: "Jefe de Sala",
+		name: "Room Owner",
 		inherit: '@',
 		jurisdiction: 'u',
 		roommod: true,
@@ -268,7 +268,7 @@ exports.grouplist = [
 	{
 		symbol: '\u2605',
 		id: "player",
-		name: "Jugador",
+		name: "Player",
 		inherit: '+',
 		roomvoice: true,
 		modchat: true,
@@ -280,7 +280,7 @@ exports.grouplist = [
 	{
 		symbol: '@',
 		id: "mod",
-		name: "Moderador",
+		name: "Moderator",
 		inherit: '%',
 		jurisdiction: 'u',
 		ban: true,
@@ -294,7 +294,7 @@ exports.grouplist = [
 	{
 		symbol: '%',
 		id: "driver",
-		name: "Conductor",
+		name: "Driver",
 		inherit: '\u2295',
 		jurisdiction: 'u',
 		announce: true,
@@ -313,42 +313,11 @@ exports.grouplist = [
 		joinbattle: true
 	},
 	{
-		symbol: '\u00A5',
-		id: "youtuber",
-		name: "Youtuber",
-		inherit: '\u2295',
-		jurisdiction: 'u',
-		youtube: true,
-		warn: true,
-		kick: true
-	},
-	{
-		symbol: '\u2295',
-		id: "operator",
-		name: "Operador",
-		inherit: '\u262A',
-		tournamentsmoderation: true,
-		tournaments: true
-	},
-	{
-		symbol: '\u262A',
-		id: "leaguechampion",
-		name: "Campeon de la Liga",
-		inherit: '+',
-	},
-	{
 		symbol: '+',
 		id: "voice",
-		name: "Vocero",
+		name: "Voiced",
 		inherit: '$',
 		joinbattle: true,
-		broadcast: true
-	},
-	{
-		symbol: '$',
-		id: "destacado",
-		name: "Destacado",
-		inherit: ' ',
 		broadcast: true
 	},
 	{
