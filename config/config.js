@@ -230,7 +230,7 @@ exports.grouplist = [
 	{
 		symbol: '~',
 		id: "admin",
-		name: "Administrator",
+		name: "mimich",
 		root: true,
 		globalonly: true
 	},
